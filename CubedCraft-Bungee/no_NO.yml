@@ -1,0 +1,75 @@
+core:
+  noperm: '&cDu har ikke tillatelse til å bruke denne kommandoen!'
+glist:
+  playerlistcolor: '&f'
+  format: '&a%server% &e(%players%): &f%playerlist%'
+  total: '&fDet er &b%totalnum% &fspillere online nå!'
+find:
+  usage: '&cVennligst bruk /find {navn}'
+  offline: '&cDen spilleren er ikke online!'
+  message: '&a%player% &7er online i &a%server%&7!'
+language:
+  usage: '&cVennligst bruk /language {språk}'
+  already: '&cDu har allerede valgt dette språket!'
+  changed: '&aDu har endret språket ditt til &b%language%&a!'
+  wait: '&cDu må vente &b%seconds% &csekunder til bruk /language igjen'
+points: '&eDu har &b%points% &epoeng!'
+discord:
+  alreadylinked: '&cDu har allerede knyttet din konto med discord!'
+  message:
+  - '&6Din personlige kode er: &b%code%&6!'
+  - '&6Bruk &b!link %code% &6i discord for å knytte din konto!'
+msg:
+  wrongusage: '&cVennligst bruk /msg {spiller} {melding}!'
+  offlinetarget: '&cDen spilleren er ikke online!'
+  receiving: '&8[&6%player% &c» &6Meg&8] &r%message%'
+  sending: '&8[&6Meg &c» &6%player%&8] &r%message%'
+reply:
+  wrongusage: '&cVennligst bruk /reply {melding}!'
+  notarget: '&cDu har ingen å svare!'
+  offlinetarget: '&cDen spilleren er ikke online lenger!'
+  receiving: '&8[&6%player% &c» &6Meg&8] &r%message%'
+  sending: '&8[&6Meg &c» &6%player%&8] &r%message%'
+spy:
+  wrongusage: '&cVennligst bruk /spy!'
+  enabled: '&6Din Sosial spion er &baktivert&6!'
+  disabled: '&6Din Sosial spion er &bdeaktivert&6!'
+  message: '&8[&b%server%&8] [&b%sender% &c» &b%receiver%&8] &r%message%'
+antispam:
+  message: '&cDu må vente %time% sekunder for å snakke igjen'
+  norepeat: '&cVennligst ikke gjenta en melding!'
+staffchat:
+  format: '&4[&9%server%&4] &6%player%&c: %message%'
+  enabled: '&2Du snakker nå i Staff Chaten!'
+  disabled: '&2Du snakker ikke lengre i Staff Chaten'
+antiad:
+  message: '&cVennligst ikke reklamer!'
+  staffmessage:
+  - '&b%name% &6prøvde å reklamere i &b%server%&6, men har blitt blokkert!'
+  - '&bMelding: &6%message%'
+antiswear:
+  message: '&cPass på språkbruket!'
+  staffmessage:
+  - '&b%name% &6prøvde å banne i &b%server%&6, men har blitt blokkert!'
+  - '&bMelding: &6%message%'
+vote:
+  links:
+  - '&a&l> &f&lStem:&a&l http://cubedcraft.com/vote/'
+  - '&a&l> &f&lStem:&a&l http://cubedcraft.com/vote/'
+  text: '&a&l> &f&lStem:&a&l http://cubedcraft.com/vote/'
+  header: '&7&l&m========================================='
+  footer: '&7&l&m========================================='
+store:
+  message:
+  - '&a&l> &f&lButikk:&a&l http://store.cubedcraft.com/'
+  - '&a&l> &f&lButikk:&a&l http://store.cubedcraft.com/'
+  text: '&a&l> &f&lButikk:&a&l http://store.cubedcraft.com/'
+  header: '&7&l&m========================================='
+  footer: '&7&l&m========================================='
+rules:
+  message:
+  - '&a&l> &f&lRegler:&a&l http://cubedcraft.com/rules/'
+  - '&a&l> &f&lRegler:&a&l http://cubedcraft.com/rules/'
+  text: '&a&l> &f&lRegler:&a&l http://cubedcraft.com/rules/'
+  header: '&7&l&m========================================='
+  footer: '&7&l&m========================================='

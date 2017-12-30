@@ -1,0 +1,75 @@
+core:
+  noperm: '&cDu har inte tillstånd att använda det här kommandon!'
+glist:
+  playerlistcolor: '&f'
+  format: '&a%server% &e(%players%): &f%playerlist%'
+  total: '&fDet finns &b%totalnum% &fspelare online just nu!'
+find:
+  usage: '&cVänligen använd /find {namn}'
+  offline: '&cDet där spelaren är inte online!'
+  message: '&a%player% &7är online i &a%server%&7!'
+language:
+  usage: '&cVänligen använd /language {språk}'
+  already: '&cDu har redan installerated det här språket!'
+  changed: '&aDu har ändrat ditt språk till &b%language%&a!'
+  wait: '&cDu behöver vänta &b%seconds% &csekunder till att använda /language again.'
+points: '&eDu har &b%points% &epoäng!'
+discord:
+  alreadylinked: '&cDu har redan länkat din konto med din discord!'
+  message:
+  - '&6Din personliga kod är: &b%code%&6!'
+  - '&6Använd &b!link %code% &6i discord för att linka din konto!'
+msg:
+  wrongusage: '&cVänligen använd /msg {player} {meddelande}!'
+  offlinetarget: '&cDet där spelaren är inte online!'
+  receiving: '&8[&6%player% &c» &6Mig&8] &r%message%'
+  sending: '&8[&6Mig &c» &6%player%&8] &r%message%'
+reply:
+  wrongusage: '&cVänligen använd /reply {meddelande}!'
+  notarget: '&cDu har ingen att svara till!'
+  offlinetarget: '&cDet där spelaren är inte online längre!'
+  receiving: '&8[&6%player% &c» &6Mig&8] &r%message%'
+  sending: '&8[&6Mig &c» &6%player%&8] &r%message%'
+spy:
+  wrongusage: '&cVänligen använd /spy!'
+  enabled: '&6Din socialspy har blivit &baktiverat&6!'
+  disabled: '&6Din socialspy har blivit &binaktiverat&6!'
+  message: '&8[&b%server%&8] [&b%sender% &c» &b%receiver%&8] &r%message%'
+antispam:
+  message: '&cDu behöver vänta %time% sekunder att prata igen.'
+  norepeat: '&cVänligen upprepa inte ditt meddelande!'
+staffchat:
+  format: '&4[&9%server%&4] &6%player%&c: %message%'
+  enabled: '&2Du pratar nu i Staff Chatten!'
+  disabled: '&2Du pratar inte längre i Staff Chatten!'
+antiad:
+  message: '&cVänligen reklamera inte!'
+  staffmessage:
+  - '&b%name% &6försökte reklamera i &b%server%&6, men har blivit blockat!'
+  - '&bMessage: &6%message%'
+antiswear:
+  message: '&cVänligen svär inte!'
+  staffmessage:
+  - '&b%name% &6försökte svära i &b%server%&6, men har blivit blockat!'
+  - '&bMessage: &6%message%'
+vote:
+  links:
+  - '&a&l> &f&lVote:&a&l http://cubedcraft.com/vote/'
+  - '&a&l> &f&lVote:&a&l http://cubedcraft.com/vote/'
+  text: '&a&l> &f&lVote:&a&l http://cubedcraft.com/vote/'
+  header: '&7&l&m========================================='
+  footer: '&7&l&m========================================='
+store:
+  message:
+  - '&a&l> &f&lStore:&a&l http://store.cubedcraft.com/'
+  - '&a&l> &f&lStore:&a&l http://store.cubedcraft.com/'
+  text: '&a&l> &f&lStore:&a&l http://store.cubedcraft.com/'
+  header: '&7&l&m========================================='
+  footer: '&7&l&m========================================='
+rules:
+  message:
+  - '&a&l> &f&lRules:&a&l http://cubedcraft.com/rules/'
+  - '&a&l> &f&lRules:&a&l http://cubedcraft.com/rules/'
+  text: '&a&l> &f&lRules:&a&l http://cubedcraft.com/rules/'
+  header: '&7&l&m========================================='
+  footer: '&7&l&m========================================='
