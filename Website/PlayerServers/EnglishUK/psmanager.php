@@ -22,6 +22,10 @@ $language = array(
 	'confirm_deletion' => 'Confirm deletion',
 	'delete_message' => 'Are you sure you want to delete',
 	'successfully_updated' => 'Successfully Updated',
+	
+	'confirm_cancel' => 'Are you sure you want to cancel?',
+	'yes' => 'Yes',
+	'no' => 'No',
 
 	// errors
 	'successfully_deleted' => 'File/Folder successfully deleted',
