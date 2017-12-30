@@ -29,7 +29,7 @@ $language = array(
 
 	// errors
 	'successfully_deleted' => 'File/Folder successfully deleted',
-	'only_mvpplus_function' => 'Sorry, You need to be a MVP+ donator to use download function',
-	'cant_delete' => 'Sorry, You can\'t delete plugins folder',
-	'cant_rename_this' => 'Sorry, You can\'t rename plugin folder',
+	'only_mvpplus_function' => 'Sorry, You need to be a MVP+ donator to use the download function',
+	'cant_delete' => 'Sorry, You can\'t delete the plugins folder',
+	'cant_rename_this' => 'Sorry, You can\'t rename the plugins folder',
 );
