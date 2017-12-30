@@ -1,0 +1,5 @@
+no-permission: Du har ikke tillatelse til å bruke denne kommandoen!
+points:
+  not-enough: '&cDu har ikke nok points til å kjøpe denne!'
+  added: '&aDu har mottatt &e%points% &apoints!'
+  successfully: '&aDu har vellykket kjøpt &e%itemname% &afor &e%points% &apoints'
