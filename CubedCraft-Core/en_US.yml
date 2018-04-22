@@ -1,5 +1,5 @@
 no-permission: '&cYou don''t have the permission to use this command!'
 points:
   not-enough: '&cYou don''t have enough points to buy this item!'
-  added: '&aYou has received &e%points% &apoints!'
+  added: '&aYou have received &e%points% &apoints!'
   successfully: '&aYou have successfully bought &e%itemname% &afor &e%points% &apoints'
