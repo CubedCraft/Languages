@@ -1,0 +1,5 @@
+no-permission: '&cJe hebt geen toestemming om deze command te gebruiken!'
+points:
+  not-enough: '&cJe hebt niet genoeg punten om dit te kunnen betalen!'
+  added: '&aJe hebt &e%points% &apoints ontvangen!'
+  successfully: '&aJe hebt succesvol &e%itemname% &avoor &e%points% &apoints gekocht'
