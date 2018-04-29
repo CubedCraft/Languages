@@ -1,3 +1,8 @@
+hubbalancer:
+  nohub: '&cDet er ingen lobby tilgjengelig!'
+  connect: '&eDu har blitt tilkoblet til lobbyen!'
+  alreadyconnected: '&eDu er allerede koblet til denne serveren!'
+  kicked: '&eDu har blitt sparket fra &a%from% &efor: &c%reason%&e!'
 core:
   noperm: '&cDu har ikke tillatelse til å bruke denne kommandoen!'
 glist:
@@ -6,7 +11,8 @@ glist:
   total: '&fDet er &b%totalnum% &fspillere online nå!'
 find:
   usage: '&cVennligst bruk /find {navn}'
-  offline: '&cDen spilleren er ikke online!'
+  offline: '&a%player% &eble sist sett på &a%date%!'
+  never-joined: '&c%player% &ehar aldri logget på før!'
   message: '&a%player% &7er online i &a%server%&7!'
 language:
   usage: '&cVennligst bruk /language {språk}'
@@ -34,7 +40,7 @@ spy:
   wrongusage: '&cVennligst bruk /spy!'
   enabled: '&6Din Sosial spion er &baktivert&6!'
   disabled: '&6Din Sosial spion er &bdeaktivert&6!'
-  message: '&8[&b%server%&8] [&b%sender% &c» &b%receiver%&8] &r%message%'
+  message: '&8[&b%sender% &c» &b%receiver%&8] &r%message%'
 antispam:
   message: '&cDu må vente %time% sekunder for å snakke igjen'
   norepeat: '&cVennligst ikke gjenta en melding!'
@@ -48,7 +54,7 @@ antiad:
   - '&b%name% &6prøvde å reklamere i &b%server%&6, men har blitt blokkert!'
   - '&bMelding: &6%message%'
 antiswear:
-  message: '&cPass på språkbruket!'
+  message: '&cVennligst ikke ban!'
   staffmessage:
   - '&b%name% &6prøvde å banne i &b%server%&6, men har blitt blokkert!'
   - '&bMelding: &6%message%'
@@ -73,3 +79,12 @@ rules:
   text: '&a&l> &f&lRegler:&a&l http://cubedcraft.com/rules/'
   header: '&7&l&m========================================='
   footer: '&7&l&m========================================='
+report:
+  usage: '&eVennligst bruk &b/report (spiller) (grunn)&e!'
+  cooldown: '&eVennligst vent &c%time% &esekunder før du rapporterer noen igjen!'
+  offline: '&cSpilleren er ikke online!'
+  not-in-server: '&eSpilleren er ikke på samme server som deg!'
+  staff:
+  - '&7(&a%server%&7) &b%player% &ehas reported &b%target%!'
+  - '&bReason: &e%reason%'
+  success: '&eDu har rapportert &b%player%&e!'

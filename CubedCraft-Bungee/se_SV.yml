@@ -1,3 +1,8 @@
+hubbalancer:
+  nohub: '&cThere is no lobby available!'
+  connect: '&eYou have been connected to the lobby!'
+  alreadyconnected: '&eYou are already connected to this server!'
+  kicked: '&eYou have been kicked from &a%from% &efor: &c%reason%&e!'
 core:
   noperm: '&cDu har inte tillstånd att använda det här kommandon!'
 glist:
@@ -6,7 +11,8 @@ glist:
   total: '&fDet finns &b%totalnum% &fspelare online just nu!'
 find:
   usage: '&cVänligen använd /find {namn}'
-  offline: '&cDet där spelaren är inte online!'
+  offline: '&a%player% &ewas last seen at &a%date%!'
+  never-joined: '&c%player% &enever joined before!'
   message: '&a%player% &7är online i &a%server%&7!'
 language:
   usage: '&cVänligen använd /language {språk}'
@@ -34,7 +40,7 @@ spy:
   wrongusage: '&cVänligen använd /spy!'
   enabled: '&6Din socialspy har blivit &baktiverat&6!'
   disabled: '&6Din socialspy har blivit &binaktiverat&6!'
-  message: '&8[&b%server%&8] [&b%sender% &c» &b%receiver%&8] &r%message%'
+  message: '&8[&b%sender% &c» &b%receiver%&8] &r%message%'
 antispam:
   message: '&cDu behöver vänta %time% sekunder att prata igen.'
   norepeat: '&cVänligen upprepa inte ditt meddelande!'
@@ -73,3 +79,12 @@ rules:
   text: '&a&l> &f&lRules:&a&l http://cubedcraft.com/rules/'
   header: '&7&l&m========================================='
   footer: '&7&l&m========================================='
+report:
+  usage: '&ePlease use &b/report (player) (reason)&e!'
+  cooldown: '&ePlease wait &c%time% &eseconds untill reporting someone again!'
+  offline: '&cThat player is not online!'
+  not-in-server: '&eThis player is not in the same server as you!'
+  staff:
+  - '&7(&a%server%&7) &b%player% &ehas reported &b%target%!'
+  - '&bReason: &e%reason%'
+  success: '&eYou have reported &b%player%&e!'

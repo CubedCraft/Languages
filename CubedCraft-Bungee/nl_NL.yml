@@ -1,3 +1,8 @@
+hubbalancer:
+  nohub: '&cThere is no lobby available!'
+  connect: '&eYou have been connected to the lobby!'
+  alreadyconnected: '&eYou are already connected to this server!'
+  kicked: '&eYou have been kicked from &a%from% &efor: &c%reason%&e!'
 core:
   noperm: '&cJe hebt geen toestemming om deze command te gebruiken!'
 glist:
@@ -6,7 +11,8 @@ glist:
   total: '&fEr zijn &b%totalnum% &fspelers online!'
 find:
   usage: '&cGebruik alsjeblieft /find {naam}'
-  offline: '&cDie speler is not online!'
+  offline: '&a%player% &ewas last seen at &a%date%!'
+  never-joined: '&c%player% &enever joined before!'
   message: '&a%player% &7is online in &a%server%&7!'
 language:
   usage: '&cGebruikt alsjeblieft /language {lang}'
@@ -73,3 +79,12 @@ rules:
   text: '&a&l> &f&lRules:&a&l http://cubedcraft.com/rules/'
   header: '&7&l&m========================================='
   footer: '&7&l&m========================================='
+report:
+  usage: '&ePlease use &b/report (player) (reason)&e!'
+  cooldown: '&ePlease wait &c%time% &eseconds untill reporting someone again!'
+  offline: '&cThat player is not online!'
+  not-in-server: '&eThis player is not in the same server as you!'
+  staff:
+  - '&7(&a%server%&7) &b%player% &ehas reported &b%target%!'
+  - '&bReason: &e%reason%'
+  success: '&eYou have reported &b%player%&e!'

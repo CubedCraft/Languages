@@ -1,3 +1,8 @@
+hubbalancer:
+  nohub: '&cThere is no lobby available!'
+  connect: '&eYou have been connected to the lobby!'
+  alreadyconnected: '&eYou are already connected to this server!'
+  kicked: '&eYou have been kicked from &a%from% &efor: &c%reason%&e!'
 core:
   noperm: '&cYou don''t have the permission to use this command!'
 glist:
@@ -6,7 +11,8 @@ glist:
   total: '&fThere are &b%totalnum% &fplayers online now!'
 find:
   usage: '&cPlease use /find {name}'
-  offline: '&cThat player is not online!'
+  offline: '&a%player% &ewas last seen at &a%date%!'
+  never-joined: '&c%player% &enever joined before!'
   message: '&a%player% &7is online in &a%server%&7!'
 language:
   usage: '&cPlease use /language {lang}'
@@ -34,7 +40,7 @@ spy:
   wrongusage: '&cPlease use /spy!'
   enabled: '&6Your socialspy has been &benabled&6!'
   disabled: '&6Your socialspy has been &bdisabled&6!'
-  message: '&8[&b%server%&8] [&b%sender% &c» &b%receiver%&8] &r%message%'
+  message: '&8[&b%sender% &c» &b%receiver%&8] &r%message%'
 antispam:
   message: '&cYou need to wait %time% seconds to talk again.'
   norepeat: '&cPlease do not repeat a message!'
@@ -73,3 +79,12 @@ rules:
   text: '&a&l> &f&lRules:&a&l http://cubedcraft.com/rules/'
   header: '&7&l&m========================================='
   footer: '&7&l&m========================================='
+report:
+  usage: '&ePlease use &b/report (player) (reason)&e!'
+  cooldown: '&ePlease wait &c%time% &eseconds untill reporting someone again!'
+  offline: '&cThat player is not online!'
+  not-in-server: '&eThis player is not in the same server as you!'
+  staff:
+  - '&7(&a%server%&7) &b%player% &ehas reported &b%target%!'
+  - '&bReason: &e%reason%'
+  success: '&eYou have reported &b%player%&e!'
