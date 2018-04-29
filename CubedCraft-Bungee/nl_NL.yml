@@ -1,8 +1,8 @@
 hubbalancer:
-  nohub: '&cThere is no lobby available!'
-  connect: '&eYou have been connected to the lobby!'
-  alreadyconnected: '&eYou are already connected to this server!'
-  kicked: '&eYou have been kicked from &a%from% &efor: &c%reason%&e!'
+  nohub: '&cEr is geen lobby beschikbaar!'
+  connect: '&eJe bent verbonden met de lobby!'
+  alreadyconnected: '&eJe bent al verbonden met deze server!'
+  kicked: '&eJij bent gekickt &a%from% &evoor: &c%reason%&e!'
 core:
   noperm: '&cJe hebt geen toestemming om deze command te gebruiken!'
 glist:
@@ -81,10 +81,10 @@ rules:
   footer: '&7&l&m========================================='
 report:
   usage: '&ePlease use &b/report (player) (reason)&e!'
-  cooldown: '&ePlease wait &c%time% &eseconds untill reporting someone again!'
-  offline: '&cThat player is not online!'
-  not-in-server: '&eThis player is not in the same server as you!'
+  cooldown: '&eWacht alstublieft &c%time% &eseconden om weer iemand te melden!'
+  offline: '&cDie speler is niet online!'
+  not-in-server: '&eDeze speler is niet in de zelfde server als jij.!'
   staff:
-  - '&7(&a%server%&7) &b%player% &ehas reported &b%target%!'
+  - '&7(&a%server%&7) &b%player% &eheeft &b%target% gemeld!'
   - '&bReason: &e%reason%'
-  success: '&eYou have reported &b%player%&e!'
+  success: '&eje hebt &b%player%&e gemeld!'
