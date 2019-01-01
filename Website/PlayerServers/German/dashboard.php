@@ -96,7 +96,7 @@ $language = array(
 	'announce_player_achievements' => 'Spielererfolge bekannt geben?',
 	'allow_nether' => 'Nether aktivieren?',
 	'generate_structures' => 'Strukturen generieren?',
-	'resource_pack' => 'Ressourcepaket url',
+	'resource_pack' => 'Ressourcenpaket url',
 	'generator_settings' => 'Generatoreinstellungen',
 	'spawn_protection' => 'Spawnschutz',
 
