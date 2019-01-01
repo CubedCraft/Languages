@@ -3,7 +3,7 @@ $language = array(
 	// Generel
 	'dashboard' => 'Kontrollbrett',
 	'plans' => 'Pläne',
-	'enter' => 'Enter',
+	'enter' => 'Eingeben',
 	'actions' => 'Aktionen',
 	'console' => 'Konsole',
 	'success' => 'Erfolg',
