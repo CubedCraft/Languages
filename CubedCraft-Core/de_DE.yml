@@ -1,0 +1,6 @@
+    
+no-permission: '&cDu hast nicht die benötigte Berechtigung um diesen Befehl zu verwenden!'
+points:
+  not-enough: '&cDu hast nicht genügend Punkte um dieses Item zu kaufen!'
+  added: '&aDu hast &e%points% &aPunkte erhalten!'
+  successfully: '&aDu hast erfolgreich &e%itemname% &afür &e%points% &aPunkte gekauft'
