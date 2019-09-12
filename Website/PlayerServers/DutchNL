@@ -1,0 +1,34 @@
+<?php 
+$language = array( 
+	'filemanager' => 'Bestandsbeheer',
+	'dashboard' => 'Dashboard',
+	'welcome' => 'Welkom',
+	'server_name' => '<b>Server Naam:</b>',
+	'last_online' => '<b>Laatst Online:</b>',
+	'plan' => '<b>Plan:</b>',
+	'plans' => '<b>Plans:</b>',
+	'status' => '<b>Status</b>',
+	'players' => '<b>Spelers</b>',
+	'none_files_or_folders' => 'Er waren geen bestanden of mappen in deze map te vinden',
+	'edit' => '<i class="fa fa-pencil" aria-hidden="true"></i> Edit',
+	'successfully_updated' => 'Succesvol bijgewerkt',
+	
+	'file_name' => 'Bestandsnaam',
+	'content' => 'Inhoud',
+	'save' => 'Opslaan',
+	'cancel' => 'Annuleer',
+	'delete' => 'Verwijder',
+	
+	'confirm_deletion' => 'Bevestig verwijdering',
+	'delete_message' => 'Weet je zeker dat je het wilt verwijderen?',
+	'successfully_updated' => 'Successvol bijgewerkt',
+	
+	'confirm_cancel' => 'Weet je zeker dat je het wilt annuleren? ?',
+	'yes' => 'Ja',
+	'no' => 'Nee',
+	// errors
+	'successfully_deleted' => 'Bestandsmap successvol verwijderd',
+	'only_mvpplus_function' => 'Sorry, je moet een MVP + donateur zijn om de downloadfunctie te gebruiken',
+	'cant_delete' => 'Sorry, je kunt de map met plug-ins niet verwijderen',
+	'cant_rename_this' => 'Sorry, je kunt de map met plug-ins niet hernoemen',
+);
