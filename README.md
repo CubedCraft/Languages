@@ -1,1 +1,1 @@
-here your welcome to translate languages
+Here you're welcome to translate languages.
