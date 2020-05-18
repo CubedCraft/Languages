@@ -1,6 +1,6 @@
 <?php 
 $language = array(
-	// Generel
+	// General
 	'dashboard' => 'Dashboard',
 	'plans' => 'Plans',
 	'enter' => 'Enter',
