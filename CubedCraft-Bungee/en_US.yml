@@ -12,7 +12,7 @@ glist:
 find:
   usage: '&cPlease use /find {name}'
   offline: '&a%player% &ewas last seen at &a%date%!'
-  never-joined: '&c%player% &enever joined before!'
+  never-joined: '&c%player% &ehas never joined!'
   message: '&a%player% &7is online in &a%server%&7!'
 language:
   usage: '&cPlease use /language {lang}'
@@ -43,7 +43,7 @@ spy:
   message: '&8[&b%sender% &c» &b%receiver%&8] &r%message%'
 antispam:
   message: '&cYou need to wait %time% seconds to talk again.'
-  norepeat: '&cPlease do not repeat a message!'
+  norepeat: '&cPlease do not repeat messages!'
 staffchat:
   format: '&4[&9%server%&4] &6%player%&c: %message%'
   enabled: '&2You are now talking in the Staff Chat!'
@@ -51,12 +51,12 @@ staffchat:
 antiad:
   message: '&cPlease do not advertise!'
   staffmessage:
-  - '&b%name% &6tried to advertise at &b%server%&6, but has been blocked!'
+  - '&b%name% &6tried to advertise in &b%server%&6, but has been blocked!'
   - '&bMessage: &6%message%'
 antiswear:
   message: '&cPlease do not swear!'
   staffmessage:
-  - '&b%name% &6tried to swear at &b%server%&6, but has been blocked!'
+  - '&b%name% &6tried to swear in &b%server%&6, but the message has been blocked!'
   - '&bMessage: &6%message%'
 vote:
   links:
@@ -81,7 +81,7 @@ rules:
   footer: '&7&l&m========================================='
 report:
   usage: '&ePlease use &b/report (player) (reason)&e!'
-  cooldown: '&ePlease wait &c%time% &eseconds untill reporting someone again!'
+  cooldown: '&ePlease wait &c%time% &eseconds until reporting someone again!'
   offline: '&cThat player is not online!'
   not-in-server: '&eThis player is not in the same server as you!'
   staff:
