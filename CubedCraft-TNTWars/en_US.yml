@@ -1,9 +1,9 @@
-added-to-blue-team: '&6&l[&c&lTNTWars&6&l] &9You have been added to the blue team'
-added-to-red-team: '&6&l[&c&lTNTWars&6&l] &cYou have been added to the red team'
-already-selected-team: '&6&l[&c&lTNTWars&6&l] &cYou have already selected a team'
+added-to-blue-team: '&6&l[&c&lTNTWars&6&l] &9You have been added to the blue team.'
+added-to-red-team: '&6&l[&c&lTNTWars&6&l] &cYou have been added to the red team.'
+already-selected-team: '&6&l[&c&lTNTWars&6&l] &cYou have already selected a team.'
 only-donators-can-choose-their-team: '&6&l[&c&lTNTWars&6&l] &cOnly donators can choose
-  their team (Select auto instead)'
-no-team-grief: '&6&l[&c&lTNTWars&6&l] &cNote: Team Griefing and die on purpose is
-  bannable'
-team-selection-item: '&aTeam Selection &7(Right Click)'
-item-selection-item: '&aItem Selection &7(Right Click)'
+  their team (Select auto instead).'
+no-team-grief: '&6&l[&c&lTNTWars&6&l] &cNote: Team Griefing and dying on purpose is
+  bannable!'
+team-selection-item: '&aTeam selection &7(Right Click)'
+item-selection-item: '&aItem selection &7(Right Click)'
