@@ -1,0 +1,89 @@
+hubbalancer:
+  nohub: '&cIl n''y a pas de lobby disponible.'
+  connect: '&eVous avez bien été connecté au lobby.'
+  alreadyconnected: '&eVous êtes déjà connecté à ce serveur.'
+  kicked: '&eVous avez été expulsé de &a%from% &epour: &c%reason%&e!'
+core:
+  noperm: '&cVous n''avez pas la permission d''utiliser cette commande.'
+glist:
+  playerlistcolor: '&f'
+  format: '&a%server% &e(%players%): &f%playerlist%'
+  total: '&fIl y a &b%totalnum% &fjoueurs en ligne.'
+find:
+  usage: '&cVeuillez utiliser /find {nom}'
+  offline: '&a%player% &ea été vu pour la dernière fois le &a%date%!'
+  never-joined: '&c%player% &ene s''est jamais connecté.'
+  message: '&a%player% &7est connecté sur &a%server%&7!'
+language:
+  usage: '&cVeuillez utiliser /language {langue}'
+  already: '&cVous avez déjà installé cette langue.'
+  changed: '&aVous avez changé votre langue pour &b%language%&a!'
+  wait: '&cVous devez attendre &b%seconds% &csecondes pour utiliser /language à nouveau.'
+points: '&eVous avez &b%points% &epoints.'
+discord:
+  alreadylinked: '&cVous avez déjà lié votre compte discord.'
+  message:
+  - '&6Votre code personnel est: &b%code%&6!'
+  - '&6Utilisez &b!link %code% &6sur discord pour lier votre compte.'
+msg:
+  wrongusage: '&cVeuillez utiliser /msg {joueur} {message}!'
+  offlinetarget: '&cCe joueur n''est pas en ligne.'
+  receiving: '&8[&6%player% &c» &6Me&8] &r%message%'
+  sending: '&8[&6Me &c» &6%player%&8] &r%message%'
+reply:
+  wrongusage: '&cVeuillez utiliser /reply {message}!'
+  notarget: '&cVous n''avez personne à qui répondre.'
+  offlinetarget: '&cCe joueur n''est plus en ligne.'
+  receiving: '&8[&6%player% &c» &6Me&8] &r%message%'
+  sending: '&8[&6Me &c» &6%player%&8] &r%message%'
+spy:
+  wrongusage: '&cVeuillez utiliser /spy!'
+  enabled: '&6Votre socialspy a été &bactivé&6.'
+  disabled: '&6Votre socialspy a été &bdésactivé&6.'
+  message: '&8[&b%sender% &c» &b%receiver%&8] &r%message%'
+antispam:
+  message: '&cVous devez attendre %time% secondes pour parler à nouveau.'
+  norepeat: '&cVeuillez ne pas répéter vos messages.'
+staffchat:
+  format: '&4[&9%server%&4] &6%player%&c: %message%'
+  enabled: '&2Vous parlez maintenant le Staff Chat.'
+  disabled: '&2Vous ne parlez plus dans le Staff Chat.'
+antiad:
+  message: '&cMerci de ne pas envoyer de liens.'
+  staffmessage:
+  - '&b%name% &6a essayé d''envoyer un lien sur &b%server%&6, mais il a été bloqué.'
+  - '&bMessage: &6%message%'
+antiswear:
+  message: '&cMerci de ne pas jurer.'
+  staffmessage:
+  - '&b%name% &6a essayé de jurer &b%server%&6, is il a été bloqué.'
+  - '&bMessage: &6%message%'
+vote:
+  links:
+  - '&a&l> &f&lVote:&a&l http://cubedcraft.com/vote/'
+  - '&a&l> &f&lVote:&a&l http://cubedcraft.com/vote/'
+  text: '&a&l> &f&lVote:&a&l http://cubedcraft.com/vote/'
+  header: '&7&l&m========================================='
+  footer: '&7&l&m========================================='
+store:
+  message:
+  - '&a&l> &f&lStore:&a&l http://store.cubedcraft.com/'
+  - '&a&l> &f&lStore:&a&l http://store.cubedcraft.com/'
+  text: '&a&l> &f&lStore:&a&l http://store.cubedcraft.com/'
+  header: '&7&l&m========================================='
+  footer: '&7&l&m========================================='
+rules:
+  message:
+  - '&a&l> &f&lRules:&a&l http://cubedcraft.com/rules/'
+  - '&a&l> &f&lRules:&a&l http://cubedcraft.com/rules/'
+  text: '&a&l> &f&lRules:&a&l http://cubedcraft.com/rules/'
+  header: '&7&l&m========================================='
+  footer: '&7&l&m========================================='
+report:
+  usage: '&eVeuillez utiliser &b/report (player) (reason)&e!'
+  cooldown: '&eVeuillez attendre &c%time% &esecondes avant de signaler un autre joueur.'
+  offline: '&cCe joueur n''est pas en ligne.'
+  not-in-server: '&eCe joueur n''est pas sur votre serveur.'
+  staff:
+  - '&7(&a%server%&7) &b%player% &ea signalé &b%target%!'
+  - '&bRaison: &e%reason%'
